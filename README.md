@@ -116,6 +116,9 @@ Normalize our dataset.
 
 <H3>Program:</H3> 
 
+
+```
+
 import pandas as pd
 import sklearn
 from sklearn import preprocessing
@@ -179,7 +182,17 @@ predicted_values = m1.predict(testing_a)
 print(confusion_matrix(testing_b,predicted_values))
 print(classification_report(testing_b,predicted_values))
 
+```
+
 <H3>Output:</H3>
+
+
+![Screenshot 2024-09-30 151204](https://github.com/user-attachments/assets/acc62e26-b547-4442-9fbe-774e0064e244)
+
+
+
+
+![Screenshot 2024-09-30 151213](https://github.com/user-attachments/assets/4c7b49cb-a6bc-4e71-bee5-3b66147b2570)
 
 
 
